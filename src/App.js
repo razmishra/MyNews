@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LoadingBar from 'react-top-loading-bar'
 export default class App extends Component {
 
-  pageSize=5
+  pageSize=15
   apiKey = process.env.REACT_APP_API_KEY
   
   state={
